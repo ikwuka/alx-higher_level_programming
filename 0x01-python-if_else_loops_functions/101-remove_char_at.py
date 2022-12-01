@@ -1,8 +1,7 @@
 #!/usr/bin/python3
-answer = ''
-for index in range(122, 96, -1):
-    if index % 2:
-        answer += chr(index - 32)
-    else:
-        answer += chr(index * 1)
-print('{}'.format(answer), end='')
+def remove_char_at(str, n):
+    result = ""
+    for character in range(0, len(str)):
+        if character != n:
+            result = result + str[character]
+    return result
