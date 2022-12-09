@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 def roman_to_int(roman_string):
-    # @roman_string - returns the roman numeral of an integer
     if isinstance(roman_string, str):
         result = 0
         numb_convert = 0
