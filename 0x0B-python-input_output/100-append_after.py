@@ -9,7 +9,7 @@ string.
 def append_after(filename="", search_string="", new_string=""):
     """
     Append a new line when a string is found
-    
+
     Args:
         filename: filename
         search_string: string to search
