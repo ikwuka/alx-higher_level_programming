@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-""" 'Myint' class inherits from int """
+""" 'MyInt' class inherits from int """
 
 
-class Myint(int):
+class MyInt(int):
     """ Class declaration """
     def __eq__(self, other):
         return int(str(self)) != other
